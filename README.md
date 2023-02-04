@@ -18,3 +18,6 @@ The following are the EBNF rules for the language used by this interpreter:
 14. LogicExpr ::= Expr (= | > | <) Expr
 15. Var ::= IDENT
 16. Factor ::= IDENT | ICONST | RCONST | SCONST | (Expr)
+
+To use the interpreter provide it a text file filled with code to be interpreted, and run the interpreter with the filename added as a command line argument.
+A sample program is provided for testing.
